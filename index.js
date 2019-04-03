@@ -66,6 +66,7 @@ function handleItemCheckClicked() {
      * Prevent the button's default behavior
      * If item is checked, un-check it
      * If item is not checked, check it
+     * The function toggles the checked property when the button is clicked
      * Re-render the shopping list
   */
   console.log('`handleItemCheckClicked` ran');
@@ -75,6 +76,14 @@ function handleItemCheckClicked() {
 function handleDeleteItemClicked() {
   // this function will be responsible for when users want to delete a shopping list
   // item
+
+  /*
+    When user clicks the 'Delete' button:
+      * Prevent the button's default behavior
+      * The selected item is removed from STORE
+      * Re-render the shopping list
+  */
+    
   console.log('`handleDeleteItemClicked` ran')
 }
 
