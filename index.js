@@ -43,8 +43,17 @@ function renderShoppingList() {
 }
 
 
+
+
 function handleNewItemSubmit() {
   // this function will be responsible for when users add a new shopping list item
+  /*
+    When user clicks 'Submit' button:
+     * Prevent the button's default behavior
+     * Store the user's input in a variable for addition to STORE
+     * Take item from user’s input and enter it into the STORE
+     * Re-render the shopping list
+  */
   console.log('`handleNewItemSubmit` ran');
 }
 
@@ -52,6 +61,13 @@ function handleNewItemSubmit() {
 function handleItemCheckClicked() {
   // this function will be responsible for when users click the "check" button on
   // a shopping list item.
+  /*
+    When user clicks the 'Check' button:
+     * Prevent the button's default behavior
+     * If item is checked, un-check it
+     * If item is not checked, check it
+     * Re-render the shopping list
+  */
   console.log('`handleItemCheckClicked` ran');
 }
 
